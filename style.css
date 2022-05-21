@@ -17,15 +17,27 @@ text-align: center;
 a:hover{ color: rgb(223, 32, 162);}
 .vienas {
     display: flex;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     justify-content: space-around;
     align-items: center;
 }
 .vienas .launch {
-    flex-grow: 2;
+    flex-shrink: 3;
 
 }
 .vienas .pav {
-    flex-grow: 1;
-    width: 350px;
+    flex-shrink: 1;
+    width: 300px;
+    margin: none;
+}
+.vienas h2{
+    color: rgb(223, 32, 162);
+    font-size: 15px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.vienas h1{
+    margin-left: 15px;
+    text-align: left;
+    font-weight: bold;
 }
