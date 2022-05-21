@@ -1,0 +1,31 @@
+body{
+    margin: 0 20px 0 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+header nav a {
+text-decoration: none;
+margin-right: 5px;
+color: rgb(93, 89, 89);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center; 
+}
+a:hover{ color: rgb(223, 32, 162);}
+.vienas {
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-around;
+    align-items: center;
+}
+.vienas .launch {
+    flex-grow: 2;
+
+}
+.vienas .pav {
+    flex-grow: 1;
+    width: 350px;
+}
