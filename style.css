@@ -67,9 +67,10 @@ footer {
     padding: 0 0.8rem 0.8rem 0.8rem;
 }
 .antra{
-    background-image: url(background.svg);
-}
-.last{display: flex;
+    background-color: aquamarine;
+    padding: 25px;
+    border-radius: 10%;
+    margin-bottom: 30px;
 justify-content: space-between;}
 .last .first{
 padding: 40px;
