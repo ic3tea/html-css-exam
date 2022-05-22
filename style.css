@@ -1,6 +1,4 @@
-body{
-    margin: 0 20px 0 20px;
-}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -15,17 +13,68 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 text-align: center; 
 }
 a:hover{ color: rgb(223, 32, 162);}
+a{color:rgb(8, 8, 8) ;}
 .vienas {
-    display: flex;
-    overflow-x: hidden;
-    justify-content: space-around;
+    display: flex; 
     align-items: center;
+    overflow-x: hidden;
+    flex-grow: 5;
+    margin-left: 20px;
 }
-.vienas .launch {
-    flex-grow: 2;
-
+.vienas h2{
+    color: rgb(223, 32, 162);
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.vienas .pav {
-    flex-grow: 1;
-    width: 350px;
+.vienas h1{
+    text-align:left;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.vienas p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input[type=submit]{
+    background-color: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    margin: 25px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 30%;
+    border-width: 4px;
+}
+div .antra h1, p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.keturi{
+    display:flex;
+    justify-content: center;
+    color: black;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.penki {
+    display: flex;
+    overflow-x:hidden;
+    box-shadow: 5px 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin:auto;
+    padding: 0 0.8rem 0.8rem 0.8rem;
+}
+.antra{
+    background-color: aquamarine;
+    padding: 25px;
+    border-radius: 10%;
+    margin-bottom: 30px;
+justify-content: space-between;}
+.last .first{
+padding: 40px;
+}
+.last .second{
+    padding: 40px; 
 }
