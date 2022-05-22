@@ -1,6 +1,4 @@
-body{
-    margin: 0 20px 0 20px;
-}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -15,29 +13,67 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 text-align: center; 
 }
 a:hover{ color: rgb(223, 32, 162);}
+a{color:rgb(8, 8, 8) ;}
 .vienas {
-    display: flex;
-    /* overflow-x: hidden; */
-    justify-content: space-around;
+    display: flex; 
     align-items: center;
-}
-.vienas .launch {
-    flex-shrink: 3;
-
-}
-.vienas .pav {
-    flex-shrink: 1;
-    width: 300px;
-    margin: none;
+    overflow-x: hidden;
+    flex-grow: 5;
+    margin-left: 20px;
 }
 .vienas h2{
     color: rgb(223, 32, 162);
-    font-size: 15px;
-    text-align: center;
+    text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .vienas h1{
-    margin-left: 15px;
-    text-align: left;
+    text-align:left;
     font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.vienas p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input[type=submit]{
+    background-color: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    margin: 25px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 30%;
+    border-width: 4px;
+}
+div .antra h1, p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.keturi{
+    display:flex;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.penki {
+    display: flex;
+    justify-content: center;
+    overflow-x:hidden;
+    align-items: center;
+    box-shadow: 5px 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin:auto;
+    padding: 0 0.8rem 0.8rem 0.8rem;
+}
+.antra{
+    background-image: url(background.svg);
+}
+.last{display: flex;
+justify-content: space-between;}
+.last .first{
+padding: 40px;
+}
+.last .second{
+    padding: 40px; 
 }
